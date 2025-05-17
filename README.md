@@ -1,16 +1,22 @@
 # alu_regex-data-extraction--ksanthiana-
+# Regex Data Extraction - Formative Assignment
 
-## Overview
-This project extracts emails, URLs, phone numbers, credit card numbers, times, HTML tags, hashtags, and currency amounts from text using Python regular expressions.
+This project demonstrates regular expression (regex) skills using Python.  
+It extracts structured data from a large text block — useful for form validations, APIs, and data cleaning.
 
-## Setup
-1. Clone the repo.
-2. Run `python REGEX.py`.
+## 👨‍💻 Implemented Patterns
 
-## Example Output
-```
-Emails Matches:
- - user@example.com
- - firstname.lastname@company.co.uk
-...
-```
+I implemented regex to extract the following data types:
+
+- ✅ URLs
+- ✅ Phone Numbers (multiple formats)
+- ✅ Credit Card Numbers (with hyphens or spaces)
+- ✅ Time (12-hour and 24-hour format)
+- ✅ Currency Amounts (including commas and decimals)
+
+## 📂 How to Run
+
+Make sure Python is installed, then:
+
+```bash
+python main.py
