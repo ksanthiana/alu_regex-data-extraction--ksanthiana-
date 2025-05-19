@@ -9,7 +9,7 @@ import re
 sample_text = """
 Visit https://www.apple.com, https://www.igihe.com or https://mail.google.com to learn more.
 You can also reach us at (123) 456-7890 or 123-456-7890.
-Use your credit card 1234-5678-9012-3456 to make a purchase.
+Use your credit cards 1234-5678-9012-3456  to make a purchase.
 The event starts at 14:30 and ends at 2:30 PM.
 Tickets cost $19.99, $1,234.56 or even $100 for VIP access.
 """
@@ -56,7 +56,7 @@ if __name__ == "__main__":
     print("🔍 Welcome to the Regex Data Extractor!")
 
     while True:
-        print("\n🎯 What would you like to extract?")
+        print("\n What would you like to extract?")
         print("1. URLs")
         print("2. Phone Numbers")
         print("3. Credit Card Numbers")
