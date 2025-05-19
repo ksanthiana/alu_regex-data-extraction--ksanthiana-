@@ -88,7 +88,7 @@ if __name__ == "__main__":
                 text = input("\n📝 Enter the text to extract from:\n")
 
             extractor = DataExtractor(text)
-            _, results = extractor.extract_by_choice(choice)
+            results = extractor.extract_by_choice(choice)
 
             print(f"\n{label} Found:")
             if results:
