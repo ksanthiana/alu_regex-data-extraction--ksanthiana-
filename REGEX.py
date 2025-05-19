@@ -40,7 +40,7 @@ class DataExtractor:
 
     def extract_by_choice(self, choice):
         if choice == "1":
-            return "🌐 URLs", self.extract_urls()
+            return " URLs", self.extract_urls()
         elif choice == "2":
             return "📞 Phone Numbers", self.extract_phone_numbers()
         elif choice == "3":
@@ -71,7 +71,7 @@ if __name__ == "__main__":
             break
 
         label = {
-            "1": "🌐 URLs",
+            "1": " URLs",
             "2": "📞 Phone Numbers",
             "3": "💳 Credit Card Numbers",
             "4": "⏰ Times",
